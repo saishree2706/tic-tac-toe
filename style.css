@@ -1,0 +1,114 @@
+body{
+	margin-top: 40px;
+	background-image: url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+}
+
+
+
+h1{
+	position: absolute;
+	text-align: center;
+	
+	font-family: 'Acme', sans-serif;
+	font-size: 70px;
+
+}
+
+td{
+	border: 4px solid #333;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+
+
+}
+
+img{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) outset, 0 1px 0 #fff;
+}
+
+
+.set{
+	display: inline-flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+}
+
+table{
+	border-collapse: collapse;
+	position: absolute;
+	left: 50%;
+	margin-left: -155px;
+	top: 200px;
+}
+
+table tr:first-child td{
+	border-top:0;
+}
+
+table tr:last-child td{
+	border-bottom:0;
+}
+
+table tr td:first-child {
+	border-left:0;
+}
+
+table tr td:last-child {
+	border-right:0;
+}
+
+.endgame{
+	display: none;
+	width: 250px;
+	top: 260px;
+	background-color: rgba(236,173,229,0.8);
+	position: absolute;
+	left: 50%;
+	margin-left: -130px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	border-radius: 20%;
+	font-family: 'Acme', sans-serif;
+
+}
+
+button{
+	font-family: 'Acme', sans-serif;
+	transition: 0.5s;
+	font-size: 25px;
+
+}
+
+button:hover{
+	padding: 10px;
+	font-size: 30px;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
